@@ -1,0 +1,84 @@
+/*colors and fonts*/
+body{
+	background-color: rgb(150,150,150);
+    color: rgb(30,30,30);
+    font-family: courier;
+    line-height: 20px;
+}
+h1{
+	color: rgb(0,0,0);
+    font-family: times;
+    margin: 10px 350px 10px 350px;
+}
+h2{
+	color: black;
+    font-family: times;
+    text-align: center;
+}
+a{
+	font-family: roboto, sans-serif;
+	font-weight: 600px;
+	text-decoration: none;
+	font-size: 16px;
+	transition: background-color 1s ease;
+}
+a:hover{
+	background-color: black;
+	color: red	
+}
+
+
+
+
+/*Custom design with class*/
+
+.container{
+    background-color: lightgrey;
+    width: 1000px;
+    margin: 40px auto;
+}
+.card-white{
+	border-radius: 5px;
+    background-color: rgb(220,220,220);
+    box-shadow: 0px 10px 30px rgb(0,0,0,0.5);
+    padding: 5px;
+    margin: 10px;
+}
+.img-circle{
+	border-radius: 30%;
+	margin:10px 400px 10px 400px;
+}
+.btn-red{
+	background-color: red;
+	color: rgb(250,250,250);
+	border-radius: 5px;
+	padding: 5px;
+	margin:10px 440px 10px 440px;
+}
+.list-inline{
+	text-align: center;
+	list-style: none;
+	padding-left: 0px 
+}
+.fas{
+	color: red
+}
+.list-inline a {
+	display: inline-block;
+	height: 48px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 45px;
+	color: rgb(150,150,230);
+}
+
+
+/*desing adjustments using id*/
+#first p{
+	font-family: helvetica blue;
+	font-size: 20px
+}
